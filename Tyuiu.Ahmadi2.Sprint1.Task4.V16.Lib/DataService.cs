@@ -1,0 +1,22 @@
+﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint1;
+
+namespace Tyuiu.Ahmadi2.Sprint1.Task4.V16.Lib
+{
+    public class DataService : ISprint1Task4V16
+    {
+        public double Calculate(double x, double y)
+        {
+            // ЗДЕСЬ ВСТАВЬТЕ ВАШУ ФОРМУЛУ ИЗ ВАРИАНТА 16
+            // Пример формулы:
+            double result = (1 + Math.Sin(x + y)) / (Math.Abs(x - 2 * y));
+
+            return Math.Round(result, 3);
+        }
+
+        public double Calculate(double x)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

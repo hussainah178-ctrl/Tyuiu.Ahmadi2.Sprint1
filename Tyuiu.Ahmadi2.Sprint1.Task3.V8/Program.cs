@@ -20,15 +20,15 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task3.V8
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
             Console.WriteLine("* Задание #3                                                              *");
             Console.WriteLine("* Вариант #8                                                              *");
-            Console.WriteLine("* Выполнил: Ахмади | ИИПБ-23-1                                           *");
+            Console.WriteLine("* Выполнил: Ахмади | АСОиУб 25-1                                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу вычисления величины дохода по вкладу.               *");
+            Console.WriteLine("* Написать программу вычисления величины дохода по вкладу.                *");
             Console.WriteLine("* Процентная ставка и время хранения задаются во время работы программы. *");
             Console.WriteLine("* Ответ округлите до 3 знаков после запятой.                             *");
-            Console.WriteLine("*************************");
-            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
-            Console.WriteLine("*************************");
+            Console.WriteLine("**************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
+            Console.WriteLine("**************************************************************************");
 
             DataService ds = new DataService();
 
@@ -41,9 +41,9 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task3.V8
             Console.Write("Процентная ставка (годовых) -> ");
             double annualRate = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("*************************");
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
-            Console.WriteLine("*************************");
+            Console.WriteLine("***************************************************************************");
 
             string result = ds.CalculateIncome(amount, days, annualRate);
             Console.WriteLine(result);
