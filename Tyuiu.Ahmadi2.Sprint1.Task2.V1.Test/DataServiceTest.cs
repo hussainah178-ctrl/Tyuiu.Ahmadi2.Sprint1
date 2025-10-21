@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
 
-namespace Tyuiu.AhmadiMH.Sprint1.Task2.V1.Test
+namespace Tyuiu.Ahmadi2.Sprint1.Task2.V1.Test
 {
     [TestClass]
     public class DataServiceTest

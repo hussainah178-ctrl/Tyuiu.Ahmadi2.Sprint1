@@ -3,7 +3,7 @@ using Tyuiu.Ahmadi2.Sprint1.Task2.V1.Lib;
 //Формулировка задания: Известно расстояние в километрах. Вычислить расстояние в милях
 //При условии, что 1 миля = 1,609 км. Ответ округлите до 3 знаков после запятой.
 
-namespace Tyuiu.AhmadiMH.Sprint1.Task2.V1
+namespace Tyuiu.Ahmadi2.Sprint1.Task2.V1
 {
     internal class Program
     {
