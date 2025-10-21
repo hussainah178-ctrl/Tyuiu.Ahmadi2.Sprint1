@@ -18,7 +18,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task2.V1.Test
             double expected = 62.176;
 
             // Act
-            double actual = Math.Round(ds.ConvertKmToMiles(km), 3);
+            double actual = Math.Round(ds.ConvertKmToM(km), 3);
 
             // Assert
             Assert.AreEqual(expected, actual);

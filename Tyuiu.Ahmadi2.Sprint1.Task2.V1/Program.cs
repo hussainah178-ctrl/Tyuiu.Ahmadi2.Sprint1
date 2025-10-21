@@ -22,7 +22,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task2.V1
             int km = Convert.ToInt32(Console.ReadLine());
 
             DataService ds = new DataService();
-            double miles = ds.ConvertKmToMiles(km);
+            double miles = ds.ConvertKmToM(km);
 
             Console.WriteLine();
             Console.WriteLine($"Расстояние в милях: {miles:F3}                              *");
