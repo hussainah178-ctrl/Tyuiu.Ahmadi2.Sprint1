@@ -8,16 +8,16 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task3.V8.Lib
         public string CalculateIncome(double amount, int days, double annualRate)
         {
             // Calculate income: (amount * annualRate * days) / (365 * 100)
-            double income = Math.Round((amount * annualRate * days) / (365 * 100), 3);
-            double totalAmount = Math.Round(amount + income, 3);
+            double income = Math.Round((amount * annualRate * days) / (365 * 100), 2);
+            double totalAmount = Math.Round(amount + income, 2);
 
-            return $"Доход: {income:F3} руб.\nСумма по окончании срока вклада: {totalAmount:F3} руб.";
+            return $"Доход: {income:F2} руб.\nСумма по окончании срока вклада: {totalAmount:F2} руб.";
         }
 
         public (double income, double totalAmount) CalculateIncomeValues(double amount, int days, double annualRate)
         {
-            double income = Math.Round((amount * annualRate * days) / (365 * 100), 3);
-            double totalAmount = Math.Round(amount + income, 3);
+            double income = Math.Round((amount * annualRate * days) / (365 * 100), 2);
+            double totalAmount = Math.Round(amount + income, 2);
 
             return (income, totalAmount);
         }
