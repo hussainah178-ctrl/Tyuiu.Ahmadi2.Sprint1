@@ -5,13 +5,15 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task2.V1.Lib
 {
     public class DataService : ISprint1Task2V1
     {
-        private double km;
+        double km;
 
         
 
         public double ConvertKmToM(int value)
         {
-            return value / 1.609;
+            double res = Convert.ToDouble(value);
+            double w = res / 1.609;
+            return w;
         }
 
         
