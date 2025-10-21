@@ -26,7 +26,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task2.V1
             double miles = ds.ConvertKmToM(km);
 
             
-            Console.WriteLine($"Расстояние в милях: " + Math.Round(miles, 3));
+            Console.WriteLine("Расстояние в милях: " + Math.Round(miles, 3));
             Console.ReadKey();
         }
     }
