@@ -9,6 +9,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task2.V1
     {
         static void Main(string[] args)
         {
+            DataService ds = new DataService();
             Console.Title = "Sprint #1 | Task #2 | Variant #1 | Ahmadi M.H.               *";
             Console.WriteLine("************************************************************");
             Console.WriteLine("* Sprint #1 | Task #2 | Variant #1 | Ahmadi M.H.           *");
@@ -21,11 +22,11 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task2.V1
             Console.Write("Введите расстояние в километрах:                                *");
             int km = Convert.ToInt32(Console.ReadLine());
 
-            DataService ds = new DataService();
+            
             double miles = ds.ConvertKmToM(km);
 
-            Console.WriteLine();
-            Console.WriteLine($"Расстояние в милях: {miles:F3}                              *");
+            
+            Console.WriteLine($"Расстояние в милях: " + Math.Round(miles, 3));
             Console.ReadKey();
         }
     }
