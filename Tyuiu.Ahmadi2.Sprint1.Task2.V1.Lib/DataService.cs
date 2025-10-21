@@ -12,7 +12,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task2.V1.Lib
         public double ConvertKmToM(int value)
         {
             double res = Convert.ToDouble(value);
-            double w = res * 0.6213;
+            double w = res * 1.609;
             return w;
         }
 
