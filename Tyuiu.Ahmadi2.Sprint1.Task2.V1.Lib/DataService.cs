@@ -11,7 +11,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task2.V1.Lib
 
         public double ConvertKmToM(int value)
         {
-            return km / 1.609;
+            return value / 1.609;
         }
 
         
