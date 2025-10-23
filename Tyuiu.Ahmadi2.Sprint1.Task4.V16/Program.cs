@@ -41,7 +41,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task4.V16
             // Пример формулы: (1 + Math.Sin(x + y)) / (Math.Abs(x - 2 * y)) 
             double result = ds.Calculate(x, y); // замените на вашу формулу
 
-            Console.WriteLine($"Ответ: {Math.Round(result, 3)}");
+            Console.WriteLine(Math.Round(result, 3));
 
             Console.ReadKey();
         }
