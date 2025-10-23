@@ -30,8 +30,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task4.V16
 
             Console.Write("Введите x: ");
             double x = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Введите y: ");
-            double y = Convert.ToDouble(Console.ReadLine());
+            
 
             Console.WriteLine("*************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
@@ -39,7 +38,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task4.V16
 
             // Здесь вставьте вашу формулу вместо примера ниже
             // Пример формулы: (1 + Math.Sin(x + y)) / (Math.Abs(x - 2 * y)) 
-            double result = ds.Calculate(x, y); // замените на вашу формулу
+            double result = ds.Calculate(x); // замените на вашу формулу
 
             Console.WriteLine(Math.Round(result, 3));
 
