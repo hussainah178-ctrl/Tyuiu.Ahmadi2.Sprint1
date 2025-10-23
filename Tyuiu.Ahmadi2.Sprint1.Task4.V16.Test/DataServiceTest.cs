@@ -11,13 +11,13 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task4.V16.Test
         {
             DataService ds = new DataService();
 
-            double x = 1;
-            double y = 2;
+            double x = 23;
+            
 
             // ОЖИДАЕМЫЙ РЕЗУЛЬТАТ для вашей формулы
             // Замените 1.328 на ожидаемый результат вашего расчета
-            double wait = 1.328;
-            double res = ds.Calculate(x, y);
+            double wait = 0.037;
+            double res = ds.Calculate(x);
 
             Assert.AreEqual(wait, res);
         }
