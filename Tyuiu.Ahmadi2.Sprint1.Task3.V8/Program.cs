@@ -45,8 +45,8 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task3.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            string result = ds.CalculateIncome(amount, days, annualRate);
-            Console.WriteLine(result);
+            double result = ds.CalculateIncome(amount, days, annualRate);
+            Console.WriteLine("Доход: "+ result);
 
             Console.ReadKey();
         }

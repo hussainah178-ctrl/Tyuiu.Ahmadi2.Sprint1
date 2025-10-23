@@ -5,13 +5,13 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task3.V8.Lib
 {
     public class DataService : ISprint1Task3V8
     {
-        public string CalculateIncome(double amount, int days, double annualRate)
+        public double CalculateIncome(double amount, int days, double annualRate)
         {
             // Calculate income: (amount * annualRate * days) / (365 * 100)
             double income = Math.Round((amount * annualRate * days) / (365.0 * 100.0), 3);
             double totalAmount = Math.Round(amount + income, 3);
-
-            return $"Доход: {income:F3} руб.\nСумма по окончании срока вклада: {totalAmount:F3} руб.";
+            
+            return income;
         }
 
         public (double income, double totalAmount) CalculateIncomeValues(double amount, int days, double annualRate)
