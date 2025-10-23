@@ -10,6 +10,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task4.V16
     {
         static void Main(string[] args)
         {
+            DataService ds = new DataService();
             Console.Title = "Спринт #1 | Выполнил: Ахмади | АСОиУб 25-1";
             Console.WriteLine("*************************");
             Console.WriteLine("* Спринт #1                                                               *");
@@ -38,7 +39,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task4.V16
 
             // Здесь вставьте вашу формулу вместо примера ниже
             // Пример формулы: (1 + Math.Sin(x + y)) / (Math.Abs(x - 2 * y)) 
-            double result = (1 + Math.Sin(x + y)) / (Math.Abs(x - 2 * y)); // замените на вашу формулу
+            double result = ds.Calculate(x, y); // замените на вашу формулу
 
             Console.WriteLine($"Ответ: {Math.Round(result, 3)}");
 

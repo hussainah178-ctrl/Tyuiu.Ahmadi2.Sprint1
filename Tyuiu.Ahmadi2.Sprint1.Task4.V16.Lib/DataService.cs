@@ -9,7 +9,7 @@ namespace Tyuiu.Ahmadi2.Sprint1.Task4.V16.Lib
         {
             // ЗДЕСЬ ВСТАВЬТЕ ВАШУ ФОРМУЛУ ИЗ ВАРИАНТА 16
             // Пример формулы:
-            double result = (1 + Math.Sin(x + y)) / (Math.Abs(x - 2 * y));
+            double result = (1/(x+4) );
 
             return Math.Round(result, 3);
         }
